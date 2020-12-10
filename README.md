@@ -1,4 +1,4 @@
-# 阿里云SMS扩展
+# PhalApi 2.x 的阿里云SMS扩展
 PhalApi 2.x扩展类库，基于Aliyun的SMS扩展。
 
 ## 安装和配置

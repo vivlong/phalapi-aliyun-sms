@@ -1,27 +1,26 @@
 {
-    "name": "vivlong/phalapi-aliyun-sms",
-    "description": "PhalApi 2.x 扩展类库：基于Aliyun的SMS扩展",
-    "type": "library",
-    "keywords": [
-        "phalapi", "phalapi-aliyun-sms", "sms"
-    ],
-    "license": "GPL-3.0+",
-    "minimum-stability": "dev",
-    "homepage": "https://www.phalapi.net/",
-    "authors": [
-        {
-            "name": "vivlong",
-            "email": "vivlonglz@gmail.com",
-            "homepage": "http://vivlong.github.io",
-            "role": "Developer"
-        }
-    ],
-    "require": {
-        "vivlong/aliyun-dysms-php-sdk": "dev-master"
-    },
-    "autoload": {
-        "psr-4": {
-            "PhalApi\\AliyunSms\\": "src"
-        }
-    }
+	"name": "vivlong/phalapi-aliyun-sms",
+	"description": "PhalApi 2.x 扩展类库：基于Aliyun的SMS扩展。",
+	"type": "library",
+	"keywords": [
+		"phalapi", "phalapi-aliyun-sms", "sms"
+	],
+	"license": "MulanPSL-2.0",
+	"minimum-stability": "dev",
+	"homepage": "https://www.phalapi.net/",
+	"authors": [{
+		"name": "vivlong",
+		"email": "vivlonglz@gmail.com",
+		"homepage": "http://vivlong.github.io",
+		"role": "Developer"
+	}],
+	"require": {
+		"php": ">=7.0.0",
+		"vivlong/aliyun-dysms-php-sdk": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"PhalApi\\AliyunSms\\": "src"
+		}
+	}
 }
